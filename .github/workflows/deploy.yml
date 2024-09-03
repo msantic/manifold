@@ -3,7 +3,7 @@ name: Deploy documentation
 on:
   push:
     branches:
-      - master
+      - pages
 
 jobs:
   deploy_github_pages:
